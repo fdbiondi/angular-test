@@ -10,6 +10,9 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { ErrorAlertComponent } from './error-alert/error-alert.component';
 import { UsernameComponent } from './username/username.component';
+import { BasicHighlightDirective } from './basic-highlight/basic-highlight.directive';
+import { BetterHighlightDirective } from './better-highlight/better-highlight.directive';
+import { UnlessDirective } from './unless.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { UsernameComponent } from './username/username.component';
     SuccessAlertComponent,
     WarningAlertComponent,
     ErrorAlertComponent,
-    UsernameComponent
+    UsernameComponent,
+    BasicHighlightDirective,
+    BetterHighlightDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
